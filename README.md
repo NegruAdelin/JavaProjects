@@ -1,5 +1,3 @@
-# JavaProjects
-
 # DentalOffice 
 
 It is a project, created for the college, that uses: Spring, JSP, JPA, CSS, PostgreSQL. 
