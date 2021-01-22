@@ -4,4 +4,4 @@ It is a project, created for the college, that uses: Spring, JSP, JPA, CSS, Post
 
 # JavaShell
 
-It is another project for college that uses: 
+It is another project for college that uses: Swing
