@@ -1,0 +1,136 @@
+@charset "ISO-8859-1";
+body {
+  margin: 0;
+}
+
+.bodyContent{
+	margin-left:15%;
+	padding:0;
+}
+
+.navbar ul, .navbarLogin ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.navbar li a, .navbarLogin li a {
+  display: block;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a.active{
+  background-color: #4CAF50;
+  padding: 20px 16px;
+  color: white;
+  box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.navbar li a:hover:not(.active), .navbarLogin li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.bodyContent form input[type=text], input[type=number], input[type=password], input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:none;
+  border-bottom: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.bodyContent form input[type=number], input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  border-bottom: 3px solid #555;
+}
+
+.bodyContent form input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 18px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bodyContent .loginContent{
+	width: 50%;
+	margin: 5px auto;
+	box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.3);
+	padding: 15px 16px;
+}
+
+.bodyContent .tableContent{
+	width: 80%;
+	margin: 5px auto;
+	padding: 15px 16px;
+}
+
+.bodyContent .tableContent a{
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bodyContent .tableContent a:hover{
+  background-color: green;
+  color: white;
+}
+
+.bodyContent form label{
+	opacity: 0.6;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.bodyContent h1{
+	width: 100%;
+	background-color: #4CAF50;
+	padding: 32px 18px;
+	color: white;
+	border-radius: 3px;
+	box-sizing: border-box;
+	margin:0;
+	box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
